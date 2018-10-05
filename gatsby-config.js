@@ -8,6 +8,9 @@ module.exports = {
       options: {
         fieldName: `fugoki`,
         url: `https://api-euwest.graphcms.com/v1/cjjr1at6d0xb801c3scjrm0l0/master`,
+        headers: {
+          'apiKey': "xxxxxxxxxxx",
+        },
         typeName: `FUGOKI`,
         // refetchInterval: 60,
         createSchema: async () => {
