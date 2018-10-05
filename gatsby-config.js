@@ -1,4 +1,5 @@
 const axios = require('axios')
+const { buildSchema } = require("graphql")
 
 module.exports = {
   plugins: [
